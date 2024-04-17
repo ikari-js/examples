@@ -12,4 +12,6 @@ To run:
 bun run index.ts
 ```
 
-This project was created using `bun init` in bun v1.1.3. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+# Project Description
+
+This is a simple todo app that allows you to add, remove, and list todos and their status. Main purpose of this project is to demonstrate the use of [ikari](https://github.com/ikari-js/ikari) in a simple project. It is written in TypeScript and uses a simple in-memory store to keep track of todos.
