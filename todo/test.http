@@ -1,0 +1,41 @@
+
+### Get all todos
+GET /api
+Host: localhost:3000
+
+### Get a todo
+GET /api/:id
+Host: localhost:3000
+
+### Create a todo
+POST /api
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "title": "Shopping 3",
+    "description": "Buy milk, bread, and cheese"
+}
+
+### Update a todo
+PATCH /api/:id/description
+Host: localhost:3000
+Content-Type: application/json
+
+{
+    "description": "Buy milk, bread, cheese, and eggs"
+}
+
+### Delete a todo
+DELETE /api/:id
+Host: localhost:3000
+
+### Toggle a todo
+PUT /api/:id/toggle
+Host: localhost:3000
+
+
+
+
+
+ 
