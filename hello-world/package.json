@@ -1,5 +1,5 @@
 {
-  "name": "hello-word",
+  "name": "hello-world",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
