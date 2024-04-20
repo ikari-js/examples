@@ -1,0 +1,4 @@
+
+GET /?name=John
+Host: localhost:3000
+Authorization: Bearer token
